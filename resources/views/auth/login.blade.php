@@ -79,9 +79,25 @@
 
                             <div class="col-12 text-center">
                                 <button class="btn btn-primary" type="submit">Login</button>
+
+
                             </div>
                         </div>
                     </form>
+                </div>
+            </div>
+
+            <div class="row g-0 justify-content-center mt-3">
+                Or Login with
+                <div class="d-flex justify-content-center mt-2">
+
+                    <a class="btn btn-square btn-outline-primary rounded-circle me-2"  href="{{ url('auth/facebook') }}"> <i
+                        class="fab fa-facebook-f"></i></a>
+
+
+                    <a class="btn btn-square btn-outline-primary rounded-circle me-2"  href="{{ url('auth/google') }}"> <i
+                        class="fab fa-google"></i></a>
+
                 </div>
             </div>
         </div>

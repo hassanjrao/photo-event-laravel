@@ -4,6 +4,8 @@ use App\Http\Controllers\AdminBookingController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AdminEventController;
 use App\Http\Controllers\AdminUserController;
+use App\Http\Controllers\FacebookController;
+use App\Http\Controllers\GoogleController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\HostEventController;
 use App\Http\Controllers\HostImagesController;
@@ -44,7 +46,8 @@ Route::middleware(["auth","verified"])->group(function () {
 
     Route::get("event-images",[UserImagesController::class,"eventImages"])->name("images.event-images");
 
-    Route::get("images",[UserImagesController::class,"index"])->name("images.index");
+    Route::get("images/{id?}",[UserImagesController::class,"index"])->name("images.index");
+                                                             
 
     Route::resource("profile",UserProfileController::class);
 });
@@ -67,3 +70,13 @@ Route::middleware(["role:host", "auth"])->prefix("host")->name("host.")->group(f
 
     Route::resource("images", HostImagesController::class);
 });
+
+
+Route::controller(FacebookController::class)->group(function(){
+    Route::get('auth/facebook', 'redirectToFacebook')->name('auth.facebook');
+    Route::get('auth/facebook/callback', 'handleFacebookCallback');
+});
+
+
+Route::get('auth/google', [GoogleController::class, 'signInwithGoogle']);
+Route::get('callback/google', [GoogleController::class, 'callbackToGoogle']);

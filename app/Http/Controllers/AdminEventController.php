@@ -23,6 +23,7 @@ class AdminEventController extends Controller
         $events=Event::with("eventHosts", "eventHosts.user")
         ->latest()->get();
 
+
         return view("admin.events.index", compact("events"));
     }
 

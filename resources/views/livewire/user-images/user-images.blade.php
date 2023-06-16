@@ -19,15 +19,8 @@
                     <img class="img-fluid bg-light p-3 w-100 mb-3 h-100"
                         style="height: 350px !important; width: 350px !important"
                         src="{{ Storage::url($eventImage->image) }}" alt="">
-
-
-
                 </div>
             @endforeach
-
-
-
-
         </div>
     </div>
 </div>

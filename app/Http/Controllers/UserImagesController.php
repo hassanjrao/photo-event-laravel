@@ -9,8 +9,9 @@ use Illuminate\Support\Facades\Storage;
 
 class UserImagesController extends Controller
 {
-    public function index(Request $request)
+    public function index(Request $request, $event_id=null)
     {
+
 
 
         $userBookings = auth()->user()->bookings;
@@ -19,17 +20,20 @@ class UserImagesController extends Controller
             ->get();
 
 
-        $eventImages = $this->getEventImages($events->pluck('id'));
+        $eventImages = $this->getEventImages($events->pluck('id'),$event_id);
 
-        return view('front.images.index', compact('eventImages', "events"));
+        return view('front.images.index', compact('eventImages', "events","event_id"));
     }
 
 
-    public function getEventImages($event_ids)
+    public function getEventImages($event_ids,$event_id=null)
     {
         $eventImages = EventImage::whereIn('event_id', $event_ids)
             ->whereHas('users', function ($query) {
                 $query->where('user_id', auth()->user()->id);
+            })
+            ->when($event_id, function ($query) use ($event_id) {
+                $query->where('event_id', $event_id);
             })
             ->get();
 
@@ -56,4 +60,6 @@ class UserImagesController extends Controller
 
 
     }
+
+
 }

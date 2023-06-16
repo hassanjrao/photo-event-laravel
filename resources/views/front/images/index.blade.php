@@ -31,7 +31,7 @@
                     <select multiple class="form-select select2" onchange="eventSelected(this)">
                         @foreach ($events as $event)
 
-                            <option value="{{ $event->id }}">{{ $event->name }}</option>
+                            <option value="{{ $event->id }}" {{ $event_id==$event->id ? "selected" : "" }}>{{ $event->name }}</option>
                         @endforeach
                     </select>
                 </div>

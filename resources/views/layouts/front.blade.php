@@ -64,7 +64,7 @@
                 <a href="about.html" class="nav-item nav-link">About</a>
 
                 <a href="{{ route('events.index') }}" class="nav-item nav-link">Events</a>
-   
+
                 @if (Auth::check())
                     <a href="{{ route('images.index') }}"
                         class=" nav-item nav-link {{ request()->segment(1) == 'images' ? ' active' : '' }}">Images</a>
@@ -117,20 +117,12 @@
                     <h1 class="display-5 text-primary">{{ config('app.name') }}</h1>
                 </a>
                 <p>Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam sed clita
-                    dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
+                    dolore eos dolores magna erat dolore sed stet justo et dolor.
+                </p>
                 <p><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</p>
                 <p><i class="fa fa-phone-alt me-2"></i>+012 345 67890</p>
                 <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
-                <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i
-                            class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i
-                            class="fab fa-instagram"></i></a>
-                </div>
+
             </div>
             <div class="col-lg-6 ps-lg-5">
                 <div class="row g-5">
@@ -143,13 +135,15 @@
                     </div>
 
                     <div class="col-sm-12">
-                        <h4 class="text-light mb-4">Newsletter</h4>
-                        <div class="w-100">
-                            <div class="input-group">
-                                <input type="text" class="form-control border-0 bg-secondary"
-                                    style="padding: 20px 30px;" placeholder="Your Email Address"><button
-                                    class="btn btn-primary px-4">Sign Up</button>
-                            </div>
+                        <div class="d-flex justify-content-start mt-4">
+                            <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

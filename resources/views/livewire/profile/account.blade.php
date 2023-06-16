@@ -7,8 +7,6 @@
                 <div class="card-body">
 
                     <form wire:submit.prevent='updateProfile'>
-
-
                         @csrf
                         <div class="row g-3">
                             <div class="col-md-12">

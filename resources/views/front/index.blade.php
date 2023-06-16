@@ -77,7 +77,7 @@
             <div class="owl-carousel testimonial-carousel wow fadeInUp row g-3" data-wow-delay="0.1s">
 
                 @foreach ($events as $ind=> $event)
-             
+
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="width: 85% !important">
                         <div class="service-item d-flex flex-column bg-light p-3 pb-0">
                             <div class="position-relative">
@@ -171,43 +171,7 @@
     <!-- About End -->
 
 
-    <!-- Facts Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="text-primary text-uppercase mb-2">Why Choose Us!</p>
-                <h1 class="display-6 mb-5">The Leading Photo Studio In The Country</h1>
-            </div>
-            <div class="row g-3">
-                <div class="col-lg-4 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="fact-item bg-light text-center h-100 p-5">
-                        <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">35</h1>
-                        <h4 class="mb-3">Award Winning</h4>
-                        <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita
-                            duo justo</span>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="fact-item bg-light text-center h-100 p-5">
-                        <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">45</h1>
-                        <h4 class="mb-3">Years Experience</h4>
-                        <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita
-                            duo justo</span>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="fact-item bg-light text-center h-100 p-5">
-                        <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">12345</h1>
-                        <h4 class="mb-3">Happy Clients</h4>
-                        <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita
-                            duo justo</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Facts End -->
-
+                                               
 
 
     <!-- Project Start -->

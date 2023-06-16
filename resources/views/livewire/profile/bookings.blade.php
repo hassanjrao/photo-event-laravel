@@ -29,7 +29,7 @@
                                                 <td>{{ $booking->total_tickets }}</td>
                                                 <td>{{ $booking->ticket_price }}</td>
                                                 <td>
-                                                    <a href="#"
+                                                    <a href="{{ route("images.index",["id"=>$booking->event->id]) }}"
                                                         class="btn btn-sm btn-primary">View Images</a>
                                                 </td>
                                             </tr>

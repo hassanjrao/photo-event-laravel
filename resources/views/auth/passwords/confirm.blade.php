@@ -27,7 +27,7 @@
                 <p class="btn-block-option fs-sm" >
                     {{ __('Please confirm your password before continuing.') }}</p>
 
-
+                                                      
             </div>
             <div class="row g-0 justify-content-center mt-4">
                 <div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">

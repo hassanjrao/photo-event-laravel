@@ -308,7 +308,7 @@
                                 </a>
                             </li>
 
-cccccccccc
+
                             <li class="nav-main-item">
                                 <a class="nav-main-link{{ request()->segment(2) == 'images' ? ' active' : '' }}"
                                     href="{{ route('host.images.index') }}">

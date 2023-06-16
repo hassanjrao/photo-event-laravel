@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Booking;
 use App\Models\Event;
+use App\Notifications\BookingNotification;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
@@ -49,7 +50,7 @@ class UserBookingController extends Controller
 
         //bookin
 
-        Booking::create([
+       $booking= Booking::create([
             "user_id" => $user->id,
             "event_id" => $event->id,
             "amount" => $totalPrice,
@@ -57,6 +58,8 @@ class UserBookingController extends Controller
             "ticket_price"=>$event->ticket_price,
             "status"=>"approved",
         ]);
+
+        $user->notify(new BookingNotification($booking));
 
         return redirect()->route("profile.index",["booking"=>true])->withToastSuccess("Booking completed successfully");
     }
