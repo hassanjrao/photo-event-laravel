@@ -33,7 +33,7 @@
     <link href="{{ asset('front-assets/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{ asset('front-assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('front-assets/css/style1.css') }}" rel="stylesheet">
 
 
     @livewireStyles
