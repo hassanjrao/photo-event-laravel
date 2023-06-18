@@ -288,6 +288,41 @@
                                     <span class="nav-main-link-name">Bookings</span>
                                 </a>
                             </li>
+
+                            <li class="nav-main-item">
+                                <a class="nav-main-link{{ request()->segment(2) == 'hero-section' ? ' active' : '' }}"
+                                    href="{{ route('admin.hero-section.index') }}">
+
+                                    <i class="nav-main-link-icon fas fa-tv"></i>
+                                    <span class="nav-main-link-name">Hero Section</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-main-item">
+                                <a class="nav-main-link{{ request()->segment(2) == 'about-us' ? ' active' : '' }}"
+                                    href="{{ route('admin.about-us.index') }}">
+                                  
+                                    <i class="nav-main-link-icon fas fa-info-circle"></i>
+                                    <span class="nav-main-link-name">About Us</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-main-item">
+                                <a class="nav-main-link{{ request()->segment(2) == 'our-work' ? ' active' : '' }}"
+                                    href="{{ route('admin.our-work.index') }}">
+                                    <i class="nav-main-link-icon fas fa-briefcase"></i>
+                                    <span class="nav-main-link-name">Our Work</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-main-item">
+                                <a class="nav-main-link{{ request()->segment(2) == 'contact-us' ? ' active' : '' }}"
+                                    href="{{ route('admin.contact-us.index') }}">
+
+                                    <i class="nav-main-link-icon fas fa-id-card-alt"></i>
+                                    <span class="nav-main-link-name">Contact Us</span>
+                                </a>
+                            </li>
                         @endif
 
 

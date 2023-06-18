@@ -61,7 +61,7 @@
             <div class="navbar-nav ms-auto py-0">
                 <a href="{{ route('home') }}"
                     class="nav-item nav-link {{ request()->segment(1) == '' ? ' active' : '' }}">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="#about" class="nav-item nav-link">About</a>
 
                 <a href="{{ route('events.index') }}" class="nav-item nav-link">Events</a>
 
@@ -76,7 +76,7 @@
             </a>
             <div class="navbar-nav me-auto py-0">
 
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="{{ route("contact-us.index") }}" class="nav-item nav-link">Contact</a>
 
 
                 @if (Auth::check())

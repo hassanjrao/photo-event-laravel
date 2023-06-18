@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\AboutUs;
 use App\Models\Event;
+use App\Models\HeroSection;
+use App\Models\OurWork;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -25,7 +28,12 @@ class HomeController extends Controller
     {
         $events=Event::latest()->get();
 
+        $heroSection=HeroSection::with("images")->findorfail(1);
 
-        return view('front.index',compact("events"));
+        $aboutUs=AboutUs::findorfail(1);
+
+        $ourWorks=OurWork::all();
+
+        return view('front.index',compact("events","heroSection","aboutUs","ourWorks"));
     }
 }
