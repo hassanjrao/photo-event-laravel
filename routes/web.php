@@ -33,6 +33,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get("test",function (){
+    return symlink("/home/ly2decayltxx/laravel/storage/app/public","/home/ly2decayltxx/public_html/storage");
+});
+
 Auth::routes(['verify' => true]);
 
 
