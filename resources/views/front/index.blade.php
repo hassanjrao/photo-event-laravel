@@ -13,7 +13,7 @@
                     <p class="animated slideInDown">
                         {{ $heroSection->intro_text }}</p>
                     <div class="d-flex align-items-center pt-4 animated slideInDown">
-                        <a href="" class="btn btn-primary py-3 px-4 me-5">Explore More</a>
+                        <a href="#events" class="btn btn-primary py-3 px-4 me-5">Explore More</a>
                         @if ($heroSection->video)
                             <button type="button" class="btn-play" data-bs-toggle="modal"
                                 data-src="{{ $heroSection->video }}" data-bs-target="#videoModal">
@@ -74,7 +74,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="events">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="text-primary text-uppercase mb-2">Upcoming Events</p>
@@ -129,7 +129,7 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="about">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
