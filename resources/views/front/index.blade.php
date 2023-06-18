@@ -19,8 +19,9 @@
                                 data-src="{{ $heroSection->video }}" data-bs-target="#videoModal">
                                 <span></span>
                             </button>
+
+                            <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
                         @endif
-                        <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
                     </div>
                 </div>
                 <div class="col-lg-6 animated fadeIn">
@@ -169,7 +170,7 @@
 
                 @foreach ($ourWorks as $ourWork)
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                      
+
                         <img class="img-fluid" src="{{ Storage::url($ourWork->image) }}" alt="">
 
                     </div>
