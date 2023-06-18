@@ -10,7 +10,7 @@
                     <nav aria-label="breadcrumb animated slideInDown">
                         <ol class="breadcrumb mb-0 justify-content-center">
                             <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                            <li class="breadcrumb-item"><a href="{{ route("events.index") }}">Events</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('events.index') }}">Events</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Booking</li>
                         </ol>
                     </nav>
@@ -28,13 +28,15 @@
 
 
 
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-6 wow fadeInUp" >
                     <div class="h-100">
 
-                        <form id="payment-form" action="{{ route('bookings.store') }}" method="POST" enctype="multipart/form-data">
+                        <form id="payment-form" action="{{ route('bookings.store') }}" method="POST"
+                            enctype="multipart/form-data">
 
                             <input type="hidden" name="event_id" value="{{ $event->id }}">
-                            <input type="hidden" name="total_price" id="input_total_price" value="{{ $event->ticket_price }}">
+                            <input type="hidden" name="total_price" id="input_total_price"
+                                value="{{ $event->ticket_price }}">
                             <input type="hidden" name="total_tickets" id="input_total_tickets" value="1">
                             @csrf
 
@@ -83,6 +85,7 @@
                                 <!-- Used to display form errors. -->
                                 <div id="card-errors" role="alert"></div>
                             </div>
+
                             <div class="stripe-errors"></div>
                             @if (count($errors) > 0)
                                 <div class="alert alert-danger">
@@ -91,8 +94,25 @@
                                     @endforeach
                                 </div>
                             @endif
+
+                            <div class="form-row mt-4">
+
+                                <label for="terms-cond mt-4">
+
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="termsCond" onclick="termsCondChange(this)">
+                                        <label class="form-check-label" for="termsCond">
+                                            By checking this box, you agree to our <a href="#">Terms &
+                                                Conditions</a>
+                                        </label>
+                                    </div>
+
+                            </div>
+
                             <div class="form-group text-center mt-4">
-                                <button type="button" id="card-button" data-secret="{{ $intent->client_secret }}"
+                                <button disabled type="button" id="card-button" data-secret="{{ $intent->client_secret }}"
                                     class="btn btn-md btn-primary btn-block">SUBMIT</button>
                             </div>
                         </form>
@@ -112,6 +132,16 @@
     <script src="https://js.stripe.com/v3/"></script>
 
     <script>
+
+        function termsCondChange(e){
+            if(e.checked){
+                document.getElementById('card-button').disabled = false;
+            }else{
+                document.getElementById('card-button').disabled = true;
+            }
+        }
+
+
         function ticketsChanged(e) {
             console.log(e.value);
 
