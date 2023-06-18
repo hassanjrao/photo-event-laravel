@@ -68,7 +68,8 @@
 
 /*** Navbar ***/
 .navbar.fixed-top {
-    display: none;
+    display: flex !important;
+    opacity: 1 !important;
     transition: .5s;
 }
 
@@ -312,7 +313,7 @@
     left: 50%;
     transform: translateX(-50%);
     border: 30px solid;
-    border-color: transparent transparent #FFFFFF transparent;      
+    border-color: transparent transparent #FFFFFF transparent;
 }
 
 @media (min-width: 576px) {
