@@ -58,9 +58,11 @@ class AdminUserController extends Controller
             "name"=>$request->name,
             "email"=>$request->email,
             "password"=>bcrypt($request->password),
+            "verified_at"=>now()
         ]);
 
         $role=Role::find($request->role);
+
 
         $user->assignRole($role->name);
 
