@@ -139,7 +139,8 @@
             }else{
                 document.getElementById('card-button').disabled = true;
             }
-    
+        }
+
         function ticketsChanged(e) {
             console.log(e.value);
 
