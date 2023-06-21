@@ -34,23 +34,23 @@
                         </p>
                         <div class="row g-2 mb-4">
                             <div class="col-sm-6">
-                                <i class="fa fa-info text-primary me-3"></i>Date: {{ $event->event_date }}
+                                <b>Date</b>: {{ $event->event_date }}
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-info text-primary me-3"></i>Time: {{ $event->event_time }}
+                                <b>Time</b>: {{ $event->event_time }}
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-info text-primary me-3"></i>Location: {{ $event->location }}
+                                <b>Location</b>: {{ $event->location }}
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-info text-primary me-3"></i>Tickets Available: {{ $event->total_tickets }}
+                                <b>Tickets Available</b>: {{ $event->total_tickets }}
                             </div>
 
                             <a href="{{ route("bookings.index",["event_id"=>$event->id]) }}" class="btn btn-primary py-3 px-4 me-5 w-25 mt-4">Book</a>
                         </div>
                     </div>
                 </div>
-             
+
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s" class="text-center">
 
                     <img src="{{ Storage::url($event->image) }}" class="img-fluid w-75" >

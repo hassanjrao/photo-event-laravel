@@ -47,7 +47,7 @@
                         <div class="col-lg-4">
 
                             <label for="events">Image</label>
-                            <input type="file" name="image" class="form-control" required>
+                            <input type="file" multiple name="images[]" class="form-control" required>
                         </div>
 
                         <div class="col-lg-4">

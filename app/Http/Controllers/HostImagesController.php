@@ -45,20 +45,25 @@ class HostImagesController extends Controller
     {
         $request->validate([
             "event"=>"required|exists:events,id",
-            "image"=>"required|image",
+            "images"=>"required|array",
+            "images.*"=>"required|image",
             "users"=>"required|array",
             "users.*"=>"required|exists:users,id",
         ]);
 
-        $image=$request->file("image")->store("event-user-images");
+        foreach($request->images as $image){
+            $image=$image->store("event-user-images");
 
-        $eventImage=EventImage::create([
-            "event_id"=>$request->event,
-            "image"=>$image,
-            "uploaded_by"=>auth()->user()->id,
-        ]);
+            $eventImage=EventImage::create([
+                "event_id"=>$request->event,
+                "image"=>$image,
+                "uploaded_by"=>auth()->user()->id,
+            ]);
 
-        $eventImage->users()->sync($request->users);
+            $eventImage->users()->sync($request->users);
+        }
+
+
 
         return back()->with("success","Image uploaded successfully");
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\AboutUs;
 use App\Models\Event;
+use App\Models\Footer;
 use App\Models\HeroSection;
 use App\Models\OurWork;
 use Illuminate\Http\Request;
@@ -33,6 +34,7 @@ class HomeController extends Controller
         $aboutUs=AboutUs::findorfail(1);
 
         $ourWorks=OurWork::all();
+
 
         return view('front.index',compact("events","heroSection","aboutUs","ourWorks"));
     }

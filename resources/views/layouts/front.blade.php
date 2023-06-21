@@ -51,7 +51,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5"
         style="display: flex !important">
-        <a href="{{ route("home") }}" class="navbar-brand d-block d-lg-none">
+        <a href="{{ route('home') }}" class="navbar-brand d-block d-lg-none">
             <h1 class="text-primary">{{ config('app.name') }}</h1>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -71,12 +71,12 @@
                 @endif
 
             </div>
-            <a href="{{ route("home") }}" class="navbar-brand bg-primary py-2 px-4 mx-3 d-none d-lg-block">
+            <a href="{{ route('home') }}" class="navbar-brand bg-primary py-2 px-4 mx-3 d-none d-lg-block">
                 <h1 class="text-white">{{ config('app.name') }}</h1>
             </a>
             <div class="navbar-nav me-auto py-0">
 
-                <a href="{{ route("contact-us.index") }}" class="nav-item nav-link">Contact</a>
+                <a href="{{ route('contact-us.index') }}" class="nav-item nav-link">Contact</a>
 
 
                 @if (Auth::check())
@@ -107,21 +107,27 @@
 
     @yield('content')
 
+    @php
+
+        $footer = \App\Models\Footer::findorfail(1);
+    @endphp
 
     <!-- Footer Start -->
     <div class="container-fluid footer position-relative bg-dark text-white-50 mt-5 py-5 px-4 px-lg-5 wow fadeIn"
         data-wow-delay="0.1s">
         <div class="row g-5 py-5">
             <div class="col-lg-6 pe-lg-5">
-                <a href="{{ route("home") }}" class="navbar-brand">
+                <a href="{{ route('home') }}" class="navbar-brand">
                     <h1 class="display-5 text-primary">{{ config('app.name') }}</h1>
                 </a>
-                <p>Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam sed clita
-                    dolore eos dolores magna erat dolore sed stet justo et dolor.
-                </p>
-                <p><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</p>
-                <p><i class="fa fa-phone-alt me-2"></i>+012 345 67890</p>
-                <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
+
+                @if ($footer->description)
+                    <p>{{ $footer->description }}</p>
+                @endif
+
+                <p><i class="fa fa-map-marker-alt me-2"></i>{{ $footer->address }}</p>
+                <p><i class="fa fa-phone-alt me-2"></i>{{ $footer->phone }}</p>
+                <p><i class="fa fa-envelope me-2"></i>{{ $footer->email }}</p>
 
             </div>
             <div class="col-lg-6 ps-lg-5">
@@ -129,21 +135,25 @@
                     <div class="col-sm-6">
                         <h4 class="text-light mb-4">Quick Links</h4>
                         <a class="btn btn-link" href="#about">About Us</a>
-                        <a class="btn btn-link" href="{{ route("contact-us.index") }}">Contact Us</a>
-                        <a class="btn btn-link" href="{{ route("events.index") }}">Events</a>
+                        <a class="btn btn-link" href="{{ route('contact-us.index') }}">Contact Us</a>
+                        <a class="btn btn-link" href="{{ route('events.index') }}">Events</a>
                         <a class="btn btn-link" href="">Terms & Condition</a>
                     </div>
 
                     <div class="col-sm-12">
                         <div class="d-flex justify-content-start mt-4">
-                            <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i
-                                    class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i
-                                    class="fab fa-instagram"></i></a>
+                            @if ($footer->twitter_link)
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="{{ $footer->twitter_link }}"><i class="fab fa-twitter"></i></a>
+                            @endif
+                            @if ($footer->facebook_link)
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="{{ $footer->facebook_link }}"><i class="fab fa-facebook-f"></i></a>
+                            @endif
+                            @if ($footer->instagram_link)
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="{{ $footer->instagram_link }}"><i class="fab fa-instagram"></i></a>
+                            @endif
                         </div>
                     </div>
                 </div>

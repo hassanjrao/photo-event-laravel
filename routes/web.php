@@ -8,6 +8,7 @@ use App\Http\Controllers\AdminEventController;
 use App\Http\Controllers\AdminUserController;
 use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\FacebookController;
+use App\Http\Controllers\FooterController;
 use App\Http\Controllers\GoogleController;
 use App\Http\Controllers\HeroSectionController;
 use App\Http\Controllers\HomeController;
@@ -79,6 +80,8 @@ Route::middleware(["role:admin", "auth"])->prefix("admin")->name("admin.")->grou
     Route::resource("our-work", OurWorkController::class);
 
     Route::resource("contact-us", AdminContactUsController::class)->only("index");
+
+    Route::resource("footer", FooterController::class)->only("index", "update");
 });
 
 

@@ -28,7 +28,7 @@
 
 
 
-                <div class="col-lg-6 wow fadeInUp" >
+                <div class="col-lg-6 wow fadeInUp">
                     <div class="h-100">
 
                         <form id="payment-form" action="{{ route('bookings.store') }}" method="POST"
@@ -77,13 +77,17 @@
 
                             <div class="form-row">
 
-                                <label for="card-holder-name">Card Holder Name</label>
-                                <input id="card-holder-name" class="form-control" type="text">
+                                <div class="form-group">
+                                    <label for="card-holder-name">Card Holder Name</label>
+                                    <input id="card-holder-name" class="form-control" type="text">
+                                </div>
 
-                                <label for="card-element">Credit or debit card</label>
-                                <div id="card-element" class="form-control"> </div>
-                                <!-- Used to display form errors. -->
-                                <div id="card-errors" role="alert"></div>
+                                <div class="form-group mt-2">
+                                    <label for="card-element">Credit or Debit card (<small>Powered by Stripe</small>)</label>
+                                    <div id="card-element" class="form-control"> </div>
+                                    <!-- Used to display form errors. -->
+                                    <div id="card-errors" role="alert"></div>
+                                </div>
                             </div>
 
                             <div class="stripe-errors"></div>
@@ -101,8 +105,8 @@
 
 
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value=""
-                                            id="termsCond" onclick="termsCondChange(this)">
+                                        <input class="form-check-input" type="checkbox" value="" id="termsCond"
+                                            onclick="termsCondChange(this)">
                                         <label class="form-check-label" for="termsCond">
                                             By checking this box, you agree to our <a href="#">Terms &
                                                 Conditions</a>
@@ -132,11 +136,10 @@
     <script src="https://js.stripe.com/v3/"></script>
 
     <script>
-
-        function termsCondChange(e){
-            if(e.checked){
+        function termsCondChange(e) {
+            if (e.checked) {
                 document.getElementById('card-button').disabled = false;
-            }else{
+            } else {
                 document.getElementById('card-button').disabled = true;
             }
         }

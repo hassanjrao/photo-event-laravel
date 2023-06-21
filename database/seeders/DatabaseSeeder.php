@@ -18,7 +18,8 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             HeroSectionSeeder::class,
             HeroSectionImageSeeder::class,
-            AboutUsSeeder::class
+            AboutUsSeeder::class,
+            FooterSeeder::class,
         ]);
     }
 }

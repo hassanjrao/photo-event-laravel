@@ -160,24 +160,27 @@
 
 
     <!-- Project Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="text-primary text-uppercase mb-2">Our Works</p>
-                <h1 class="display-6 mb-0">Discover Our Unique And Creative Photoshoot</h1>
-            </div>
-            <div class="row g-3">
 
-                @foreach ($ourWorks as $ourWork)
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+    @if ($ourWorks->count() > 0)
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                    <p class="text-primary text-uppercase mb-2">Our Works</p>
+                    <h1 class="display-6 mb-0">Discover Our Unique And Creative Photoshoot</h1>
+                </div>
+                <div class="row g-3">
 
-                        <img class="img-fluid" src="{{ Storage::url($ourWork->image) }}" alt="">
+                    @foreach ($ourWorks as $ourWork)
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
 
-                    </div>
-                @endforeach
+                            <img class="img-fluid" src="{{ Storage::url($ourWork->image) }}" alt="">
 
+                        </div>
+                    @endforeach
+
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Project End -->
+        <!-- Project End -->
+    @endif
 @endsection
