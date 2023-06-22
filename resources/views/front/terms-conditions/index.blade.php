@@ -36,6 +36,7 @@
                         to the Event and check in at marked locations during specified time periods.
                     </p>
 
+                    <br>
                     <h5>ARTICLE 1: YOUR TICKET</h5>
 
                     <p>
