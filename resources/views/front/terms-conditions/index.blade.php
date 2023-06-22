@@ -408,7 +408,7 @@
                         <li>
                             Any other items deemed as posing a threat to the safe enjoyment of the patrons.
                         </li>
-                        <li>
+                        
 
                     </ul>
 
@@ -514,7 +514,7 @@
                             spirit
                             thereof.
                         </li>
-                        
+
 
                     </ul>
 
