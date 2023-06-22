@@ -18,6 +18,7 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&Quicksand:wght@400;500;600&display=swap"
         rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -138,7 +139,7 @@
                         <a class="btn btn-link" href="#about">About Us</a>
                         <a class="btn btn-link" href="{{ route('contact-us.index') }}">Contact Us</a>
                         <a class="btn btn-link" href="{{ route('events.index') }}">Events</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
+                        <a class="btn btn-link" href="{{ route("terms-and-conditions") }}">Terms & Condition</a>
                     </div>
 
                     <div class="col-sm-12">

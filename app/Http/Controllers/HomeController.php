@@ -38,4 +38,9 @@ class HomeController extends Controller
 
         return view('front.index',compact("events","heroSection","aboutUs","ourWorks"));
     }
+
+    public function termsCondtions(){
+
+        return view("front.terms-conditions.index");
+    }
 }

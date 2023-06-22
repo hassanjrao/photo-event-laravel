@@ -44,6 +44,8 @@ Auth::routes(['verify' => true]);
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
+Route::get('terms-and-conditions', [HomeController::class, 'termsCondtions'])->name('terms-and-conditions');
+
 Route::get("events/{event_id}", [UserEventController::class, "show"])->name("events.show");
 
 Route::get("events", [UserEventController::class, "index"])->name("events.index");
