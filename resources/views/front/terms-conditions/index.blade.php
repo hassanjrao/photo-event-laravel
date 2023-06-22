@@ -223,37 +223,37 @@
                     <br>
                     <h5>ARTICLE 3: SECURITY CHECK</h5>
                     <p>
-                        Access to the Event site is PROHIBITED and refused to, but not limited to, people who:•
+                        Access to the Event site is PROHIBITED and refused to, but not limited to, people who:
                     </p>
                     <ul>
 
-                        <li>Are under the influence of illegal drugs or any other illegal substances•
+                        <li>Are under the influence of illegal drugs or any other illegal substances
                         </li>
                         <li>
                             Are clearly suffering from alcohol intoxication which, in Event's staff's sole discretion, has
                             caused
-                            You to be in an impaired state•
+                            You to be in an impaired state
                         </li>
                         <li>
                             Have been previously banned from Event's and/or other events by the organizer, the
                             administration or
-                            legal authorities•
+                            legal authorities
                         </li>
                         <li>
-                            Are demonstrating an intent to disturb the peace or to provoke someone else to do so•
-                            Engage in fighting or disruptive behavior•
+                            Are demonstrating an intent to disturb the peace or to provoke someone else to do so
+                            Engage in fighting or disruptive behavior
                         </li>
                         <li>
-                            Use foul language•
+                            Use foul language
                         </li>
                         <li>
-                            Wear clothing with obscene or indecent language•
+                            Wear clothing with obscene or indecent language
                         </li>
                         <li>
-                            Resist the direction of and search by the Event security guards and security services•
+                            Resist the direction of and search by the Event security guards and security services
                         </li>
                         <li>
-                            Refuse to declare and forfeits objects that are prohibited, as set forth herein•
+                            Refuse to declare and forfeits objects that are prohibited, as set forth herein
                         </li>
                         <li>
                             Distribute flyers or posters on or near the Event site. If You would like to promote one of Your
@@ -434,82 +434,82 @@
                     <ul>
 
                         <li>
-                            • Try to access or be in sections restricted to certain ticketholders unless in accordance with
+                             Try to access or be in sections restricted to certain ticketholders unless in accordance with
                             Your
                             Ticket or credentials, such as production rooms, artists' lodges, VIP zones, press rooms,
                             offices,
                             backstage and working areas
                         </li>
                         <li>
-                            • Climb tents, constructions, fences, closures, lighting columns, tables, benches or any other
+                             Climb tents, constructions, fences, closures, lighting columns, tables, benches or any other
                             infrastructure of the Event site
                         </li>
                         <li>
-                            • Obstruct entrances, exits and evacuation routes and/or to linger at these locations any longer
+                             Obstruct entrances, exits and evacuation routes and/or to linger at these locations any longer
                             than
                             strictly necessary for entering or exiting the Event site
                         </li>
                         <li>
-                            • Wear a disguise or obstruct Your face to avoid being recognized
+                             Wear a disguise or obstruct Your face to avoid being recognized
                         </li>
                         <li>
-                            • Display or make texts, symbols, images, gestures, wear clothing or articles of dress which, in
+                             Display or make texts, symbols, images, gestures, wear clothing or articles of dress which, in
                             the
                             sole discretion of Event staff or security personnel, contain and/or display language and/or
                             images
                             which are obscene, racist, xenophobic, provocative, hate speech or discriminatory
                         </li>
                         <li>
-                            • Be under the influence of illegal drugs or any other illegal substances
+                             Be under the influence of illegal drugs or any other illegal substances
                         </li>
                         <li>
-                            • Be clearly suffering from alcohol intoxication that, in Events staff's sole discretion, has
+                             Be clearly suffering from alcohol intoxication that, in Events staff's sole discretion, has
                             caused
                             You
                             to be in an impaired state
                         </li>
                         <li>
-                            • Disturb the peace, demonstrate an intent to disturb the peace or provoke someone else to do
+                             Disturb the peace, demonstrate an intent to disturb the peace or provoke someone else to do
                             so, or
                             compromise the safety of the general public
                         </li>
                         <li>
-                            • Sell drinks, food, or any other product without the express consent of the Company
+                             Sell drinks, food, or any other product without the express consent of the Company
                         </li>
                         <li>
-                            • Throw or shoot any object or liquid, or throw or shoot any other product in loose or gaseous
+                             Throw or shoot any object or liquid, or throw or shoot any other product in loose or gaseous
                             form
                         </li>
                         <li>
-                            • Smoke in the non-smoking areas
+                             Smoke in the non-smoking areas
                         </li>
                         <li>
-                            • Urinate in public
+                             Urinate in public
                         </li>
                         <li>
-                            • Re-enter the Event after being removed or banned from the Event, even if You are in possession
+                             Re-enter the Event after being removed or banned from the Event, even if You are in possession
                             of
                             a
                             new Ticket (such Ticket will not be refunded)
                         </li>
                         <li>
-                            • Deface, mark, damage, tear down or otherwise destroy, in whole or in part, any of the
+                             Deface, mark, damage, tear down or otherwise destroy, in whole or in part, any of the
                             decorations,
                             infrastructure or part of the Event site
                         </li>
                         <li>
-                            • Litter or fail to maintain the cleanliness of the Event site
+                             Litter or fail to maintain the cleanliness of the Event site
                         </li>
                         <li>
-                            • Resist the direction of, and search by, security personnel
+                             Resist the direction of, and search by, security personnel
                         </li>
                         <li>
-                            • Refuse to declare and forfeit objects that are considered to be dangerous or off-limits by the
+                             Refuse to declare and forfeit objects that are considered to be dangerous or off-limits by the
                             Event's
                             security personnel – security personnel are under no obligation to return such forfeited items
                         </li>
                         <li>
-                            • Act in violation of the provisions of one (1) or more articles of these regulations or the
+                             Act in violation of the provisions of one (1) or more articles of these regulations or the
                             spirit
                             thereof.
                         </li>
