@@ -4,6 +4,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -45,7 +46,7 @@
 
 body {
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -81,7 +82,7 @@ h6,
 .h6 {
     margin-top: 0;
     margin-bottom: .5rem;
-    font-family: "Playfair Display", serif;
+    font-family: "Quicksand Display", serif;
     font-weight: 600;
     line-height: 1.2;
     color: #1E1916
@@ -6245,7 +6246,7 @@ fieldset:disabled .btn {
     z-index: 1080;
     display: block;
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -6372,7 +6373,7 @@ fieldset:disabled .btn {
     z-index: 1070;
     display: block;
     max-width: 276px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
