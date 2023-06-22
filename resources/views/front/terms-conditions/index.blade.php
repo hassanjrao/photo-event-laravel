@@ -44,7 +44,7 @@
                         Your unconditional acceptance to be bound by (i) any and all of the terms and conditions contained
                         within this agreement (this “Agreement”) between You and Snap and Mingle (the “Company”) to attend
                         all
-                        or part of the Event and (ii) Company’s privacy policy (“Privacy Policy”), which can be found at
+                        or part of the Event and (ii) Company's privacy policy (“Privacy Policy”), which can be found at
                         https://www.freeprivacypolicy.com/blog/privacy-policy-url/. For the avoidance of doubt, Your
                         presence at
                         the Event will be governed by this Agreement and the Privacy Policy.
@@ -52,9 +52,9 @@
 
                     <p>
                         For safety reasons, Company reserves the right to, without any prior notice or compensation to You:
-                        postpone, cancel, interrupt or stop the Event; provisionally keep visitors on the Event site at the
+                        postpone, cancel, interrupt or stop the Event provisionally keep visitors on the Event site at the
                         end
-                        of the Event; totally or partially vacate the Event site; and deny access to the Event site
+                        of the Event totally or partially vacate the Event site and deny access to the Event site
                         regardless
                         of the possession of a valid Ticket.
                     </p>
@@ -86,7 +86,7 @@
                     <p>
                         If the Event is cancelled in whole, or in part, due to a Force Majeure Event (as defined below), You
                         will not be entitled to a refund. Notwithstanding the foregoing, the Company may issue, at the
-                        Company’s
+                        Company's
                         sole and absolute discretion, a partial or full refund of Your Ticket, by accounting for, among
                         other
                         considerations, the extent and nature of the cancellation. A “Force Majeure Event” shall mean an act
@@ -184,9 +184,9 @@
                         The following original forms of identification are ACCEPTABLE:
                     </p>
                     <ul>
-                        <li>Government-Issued Passport;</li>
-                        <li>Driver’s License (U.S. or Canada);</li>
-                        <li>Military Identification Card with Photo; or</li>
+                        <li>Government-Issued Passport</li>
+                        <li>Driver's License (U.S. or Canada)</li>
+                        <li>Military Identification Card with Photo or</li>
                         <li>Government-Issued Identification Card with Photo.</li>
                     </ul>
 
@@ -196,25 +196,25 @@
                     </p>
                     <ul>
 
-                        <li>Expired Identification Card;
+                        <li>Expired Identification Card
                         </li>
                         <li>
-                            School Identification Card;
+                            School Identification Card
                         </li>
                         <li>
-                            License/Identification Card issued in countries other than the U.S. or Canada;
+                            License/Identification Card issued in countries other than the U.S. or Canada
                         </li>
                         <li>
-                            Birth Certificate;
+                            Birth Certificate
                         </li>
                         <li>
-                            Social Security Card;
+                            Social Security Card
                         </li>
                         <li>
-                            Federal Immigration Card;
+                            Federal Immigration Card
                         </li>
                         <li>
-                            Voter Registration Card; and
+                            Voter Registration Card and
                             Copies of any acceptable forms of identification.
                         </li>
                     </ul>
@@ -227,33 +227,33 @@
                     </p>
                     <ul>
 
-                        <li>Are under the influence of illegal drugs or any other illegal substances;•
+                        <li>Are under the influence of illegal drugs or any other illegal substances•
                         </li>
                         <li>
-                            Are clearly suffering from alcohol intoxication which, in Event’s staff’s sole discretion, has
+                            Are clearly suffering from alcohol intoxication which, in Event's staff's sole discretion, has
                             caused
-                            You to be in an impaired state;•
+                            You to be in an impaired state•
                         </li>
                         <li>
-                            Have been previously banned from Event’s and/or other events by the organizer, the
+                            Have been previously banned from Event's and/or other events by the organizer, the
                             administration or
-                            legal authorities;•
+                            legal authorities•
                         </li>
                         <li>
-                            Are demonstrating an intent to disturb the peace or to provoke someone else to do so;•
-                            Engage in fighting or disruptive behavior;•
+                            Are demonstrating an intent to disturb the peace or to provoke someone else to do so•
+                            Engage in fighting or disruptive behavior•
                         </li>
                         <li>
-                            Use foul language;•
+                            Use foul language•
                         </li>
                         <li>
-                            Wear clothing with obscene or indecent language;•
+                            Wear clothing with obscene or indecent language•
                         </li>
                         <li>
-                            Resist the direction of and search by the Event security guards and security services;•
+                            Resist the direction of and search by the Event security guards and security services•
                         </li>
                         <li>
-                            Refuse to declare and forfeits objects that are prohibited, as set forth herein;•
+                            Refuse to declare and forfeits objects that are prohibited, as set forth herein•
                         </li>
                         <li>
                             Distribute flyers or posters on or near the Event site. If You would like to promote one of Your
@@ -436,77 +436,77 @@
                         <li>
                             • Try to access or be in sections restricted to certain ticketholders unless in accordance with
                             Your
-                            Ticket or credentials, such as production rooms, artists’ lodges, VIP zones, press rooms,
+                            Ticket or credentials, such as production rooms, artists' lodges, VIP zones, press rooms,
                             offices,
-                            backstage and working areas;
+                            backstage and working areas
                         </li>
                         <li>
                             • Climb tents, constructions, fences, closures, lighting columns, tables, benches or any other
-                            infrastructure of the Event site;
+                            infrastructure of the Event site
                         </li>
                         <li>
                             • Obstruct entrances, exits and evacuation routes and/or to linger at these locations any longer
                             than
-                            strictly necessary for entering or exiting the Event site;
+                            strictly necessary for entering or exiting the Event site
                         </li>
                         <li>
-                            • Wear a disguise or obstruct Your face to avoid being recognized;
+                            • Wear a disguise or obstruct Your face to avoid being recognized
                         </li>
                         <li>
                             • Display or make texts, symbols, images, gestures, wear clothing or articles of dress which, in
                             the
                             sole discretion of Event staff or security personnel, contain and/or display language and/or
                             images
-                            which are obscene, racist, xenophobic, provocative, hate speech or discriminatory;
+                            which are obscene, racist, xenophobic, provocative, hate speech or discriminatory
                         </li>
                         <li>
-                            • Be under the influence of illegal drugs or any other illegal substances;
+                            • Be under the influence of illegal drugs or any other illegal substances
                         </li>
                         <li>
-                            • Be clearly suffering from alcohol intoxication that, in Events staff’s sole discretion, has
+                            • Be clearly suffering from alcohol intoxication that, in Events staff's sole discretion, has
                             caused
                             You
-                            to be in an impaired state;
+                            to be in an impaired state
                         </li>
                         <li>
                             • Disturb the peace, demonstrate an intent to disturb the peace or provoke someone else to do
                             so, or
-                            compromise the safety of the general public;
+                            compromise the safety of the general public
                         </li>
                         <li>
-                            • Sell drinks, food, or any other product without the express consent of the Company;
+                            • Sell drinks, food, or any other product without the express consent of the Company
                         </li>
                         <li>
                             • Throw or shoot any object or liquid, or throw or shoot any other product in loose or gaseous
-                            form;
+                            form
                         </li>
                         <li>
-                            • Smoke in the non-smoking areas;
+                            • Smoke in the non-smoking areas
                         </li>
                         <li>
-                            • Urinate in public;
+                            • Urinate in public
                         </li>
                         <li>
                             • Re-enter the Event after being removed or banned from the Event, even if You are in possession
                             of
                             a
-                            new Ticket (such Ticket will not be refunded);
+                            new Ticket (such Ticket will not be refunded)
                         </li>
                         <li>
                             • Deface, mark, damage, tear down or otherwise destroy, in whole or in part, any of the
                             decorations,
-                            infrastructure or part of the Event site;
+                            infrastructure or part of the Event site
                         </li>
                         <li>
-                            • Litter or fail to maintain the cleanliness of the Event site;
+                            • Litter or fail to maintain the cleanliness of the Event site
                         </li>
                         <li>
-                            • Resist the direction of, and search by, security personnel;
+                            • Resist the direction of, and search by, security personnel
                         </li>
                         <li>
                             • Refuse to declare and forfeit objects that are considered to be dangerous or off-limits by the
-                            Event’s
-                            security personnel – security personnel are under no obligation to return such forfeited items;
+                            Event's
+                            security personnel – security personnel are under no obligation to return such forfeited items
                         </li>
                         <li>
                             • Act in violation of the provisions of one (1) or more articles of these regulations or the
@@ -571,10 +571,10 @@
                     <p>
                         Tickets may not be used in association with any giveaway, sweepstakes, contest or similar
                         activities,
-                        including, but not limited to, as a prize or incentive, without the Company’s prior written
+                        including, but not limited to, as a prize or incentive, without the Company's prior written
                         consent.
                         Any
-                        Ticket so used will automatically become void at the Company’s sole discretion with no refund to
+                        Ticket so used will automatically become void at the Company's sole discretion with no refund to
                         You
                         and/or the ticketholder.
                     </p>
@@ -599,7 +599,7 @@
                         reproduction or other publication of the Event (the “Footage”) and may also be used by or on
                         behalf
                         of
-                        the Company or any of the Company’s parent entities, subsidiaries, affiliates, partners,
+                        the Company or any of the Company's parent entities, subsidiaries, affiliates, partners,
                         sponsors,
                         officers, shareholders, successors or assigns for any purpose, including, but not limited to,
                         archival,
@@ -674,7 +674,7 @@
                     <p>The Company has a zero tolerance policy regarding illegal drugs. It is forbidden on the Event
                         site
                         to:
-                        (i) use, distribute, sell and/or to be in possession of illegal drugs; and (ii) distribute, sell
+                        (i) use, distribute, sell and/or to be in possession of illegal drugs and (ii) distribute, sell
                         or
                         improperly use prescription or over-the-counter drugs. You understand and agree that Your use of
                         the
@@ -857,7 +857,7 @@
                         AN
                         ESSENTIAL ELEMENT OF THE BASIS OF THE BARGAIN BETWEEN US. SOME JURISDICTIONS DO NOT ALLOW THE
                         EXCLUSION
-                        OR LIMITATION OF DAMAGES, SO THESE MAY NOT APPLY TO YOU. IN SUCH CASES, THE COMPANY PARTIES’
+                        OR LIMITATION OF DAMAGES, SO THESE MAY NOT APPLY TO YOU. IN SUCH CASES, THE COMPANY PARTIES'
                         LIABILITY
                         WILL BE LIMITED TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW. IN NO EVENT WILL ATTORNEYS'
                         FEES
@@ -887,7 +887,7 @@
                         You understand that the Company Parties and all other related parties, including, but not
                         limited
                         to,
-                        each of the Company Parties and the related parties’ management, employees, and agents, will not
+                        each of the Company Parties and the related parties' management, employees, and agents, will not
                         be
                         held
                         responsible, financially or otherwise, for any items that are left, lost, stolen, destroyed,
@@ -929,7 +929,7 @@
                         enforced to the maximum extent possible so as to effect the intent of the parties hereto, and
                         the
                         other
-                        provisions contained herein will remain in full force and effect. Company’s failure to insist
+                        provisions contained herein will remain in full force and effect. Company's failure to insist
                         upon
                         or
                         enforce any provision of this Agreement shall not be construed as a waiver of any provision or
