@@ -108,7 +108,7 @@
                                         <input class="form-check-input" type="checkbox" value="" id="termsCond"
                                             onclick="termsCondChange(this)">
                                         <label class="form-check-label" for="termsCond">
-                                            By checking this box, you agree to our <a href="{{ route("terms-and-conditions") }}">Terms &
+                                            By checking this box, you agree to our <a target="__blank" href="{{ route("terms-and-conditions") }}">Terms &
                                                 Conditions</a>
                                         </label>
                                     </div>
