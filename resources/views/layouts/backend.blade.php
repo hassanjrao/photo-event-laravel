@@ -290,6 +290,14 @@
                             </li>
 
                             <li class="nav-main-item">
+                                <a class="nav-main-link{{ request()->segment(2) == 'images' ? ' active' : '' }}"
+                                    href="{{ route('admin.images.index') }}">
+                                    <i class="nav-main-link-icon fas fa-images "></i>
+                                    <span class="nav-main-link-name">Images</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-main-item">
                                 <a class="nav-main-link{{ request()->segment(2) == 'hero-section' ? ' active' : '' }}"
                                     href="{{ route('admin.hero-section.index') }}">
 
@@ -328,7 +336,7 @@
                                 <a class="nav-main-link{{ request()->segment(2) == 'footer' ? ' active' : '' }}"
                                     href="{{ route('admin.footer.index') }}">
 
-                                    <i class="nav-main-link-icon fas fa-id-card-alt"></i>
+                                    <i class="nav-main-link-icon fas fa-info-circle"></i>
                                     <span class="nav-main-link-name">Footer</span>
                                 </a>
                             </li>

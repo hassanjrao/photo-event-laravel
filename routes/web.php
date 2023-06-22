@@ -5,6 +5,7 @@ use App\Http\Controllers\AdminBookingController;
 use App\Http\Controllers\AdminContactUsController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AdminEventController;
+use App\Http\Controllers\AdminImageController;
 use App\Http\Controllers\AdminUserController;
 use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\FacebookController;
@@ -82,6 +83,8 @@ Route::middleware(["role:admin", "auth"])->prefix("admin")->name("admin.")->grou
     Route::resource("contact-us", AdminContactUsController::class)->only("index");
 
     Route::resource("footer", FooterController::class)->only("index", "update");
+
+    Route::resource("images",AdminImageController::class);
 });
 
 
