@@ -15,7 +15,7 @@
             <div class="block-content">
                 <form action="{{ route('admin.profile.update', $user->id) }}" method="POST"
                     enctype="multipart/form-data">
-
+{{--  --}}
                     @csrf
                     @method('PUT')
 
