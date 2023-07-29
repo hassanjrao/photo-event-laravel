@@ -427,6 +427,11 @@
                             <div role="separator" class="dropdown-divider m-0"></div>
                             <div class="p-2">
 
+                                <a href="{{ route('admin.profile.index') }}"
+                                    class="dropdown-item d-flex align-items-center justify-content-between">
+                                    <span class="fs-sm fw-medium">Profile</span>
+                                </a>
+
                                 <a class="dropdown-item d-flex align-items-center justify-content-between"
                                     onclick="document.getElementById('logout-form').submit()">
                                     <span class="fs-sm fw-medium">Log Out</span>
