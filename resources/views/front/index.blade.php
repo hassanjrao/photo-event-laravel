@@ -138,7 +138,7 @@
                             <img class="img-fluid bg-light p-3" src="{{ Storage::url($aboutUs->image_1) }}" alt="">
                         </div>
                         <div class="col-6 align-self-end">
-                            <img class="img-fluid bg-light p-3" src="{{ Storage::url($aboutUs->image_1) }}" alt="">
+                            <img class="img-fluid bg-light p-3" src="{{ Storage::url($aboutUs->image_2) }}" alt="">
                         </div>
                     </div>
                 </div>
