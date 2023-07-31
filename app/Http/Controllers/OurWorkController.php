@@ -101,6 +101,9 @@ class OurWorkController extends Controller
      */
     public function destroy(OurWork $ourWork)
     {
-        //
+
+        $ourWork->delete();
+
+        return redirect()->back()->with("success","Deleted Successfully");
     }
 }
